@@ -27,7 +27,6 @@ with open('file.txt', 'r') as f:
 ```awk
 $1 ~ /Mike/ { print $2 }
 ```
----
 
 ## Quirks of AWK
 
@@ -46,8 +45,6 @@ print str3 # Prints "Hi Internet"
 }
 ```
 
----
-
 ## Why Use Awk?
 - Native File I/O (No need to worry about opening and closing buffers)
 - Columns in a file are automatically indexed into variables prefixed with `$` (ie `$0` for whole line, `$1` for first line)
@@ -60,8 +57,6 @@ print str3 # Prints "Hi Internet"
 { print $1 > "/dev/stderr" } # Output the first column of a file to standard error
 ```
 
----
-
 ## AWK Case Study One
 
 Recreate the Unix `nl` command (number the lines of a file)
@@ -69,8 +64,6 @@ Recreate the Unix `nl` command (number the lines of a file)
 ```awk
 { print NR, $0 }
 ```
-
----
 
 ## AWK Case Study Two
 
@@ -87,8 +80,6 @@ Paul	99.76	55
 END { print total }
 ```
 
----
-
 ## Bonus: Format the Number as Currency with Commas
 
 ```awk
@@ -104,11 +95,9 @@ function format_as_currency(x,    num, len) {
 }
 ```
 
----
-
 ## AWK Case Study Three
 
-Show which users have the most VS Code processes open on Stu.
+Show which users have the most VS Code processes open on your ssh server.
 
 ```sh
 ps aux | awk '
@@ -118,8 +107,6 @@ END {
 		print processes[user], user | "sort -nr"
 }'
 ```
-
----
 
 ## Want to Learn More?
 

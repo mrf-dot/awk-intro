@@ -109,11 +109,12 @@ END {
 ## Want to Learn More?
 
 Learn more about these AWK features:
-	- `gsub`/`sub`/`match` for pattern matching and substitution
-	- Using AWK on multi-gigabyte databases
-	- Advanced pattern matching
-	- Interactive AWK programs
-	- Math in AWK
-	- Using AWK in TSV and CSV files
-	- Formatting AWK output with `sprintf` and `printf`
-	- Sorting AWK output with the `sort` command
+
+- `gsub`/`sub`/`match` for pattern matching and substitution
+- Using AWK on multi-gigabyte databases
+- Advanced pattern matching
+- Interactive AWK programs
+- Math in AWK
+- Using AWK in TSV and CSV files
+- Formatting AWK output with `sprintf` and `printf`
+- Sorting AWK output with the `sort` command

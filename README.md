@@ -108,8 +108,7 @@ END {
 
 ## Want to Learn More?
 
-- Stay tuned for the AWK talk later in the semester (Date TBD)
-- Learn more about these AWK features:
+Learn more about these AWK features:
 	- `gsub`/`sub`/`match` for pattern matching and substitution
 	- Using AWK on multi-gigabyte databases
 	- Advanced pattern matching

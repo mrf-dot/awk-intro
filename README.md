@@ -1,7 +1,5 @@
 # The AWK Language: A *Brief* Introduction
 
-Mitch Feigenbaum - <https://mitchf.me>
-
 ## What is AWK?
 
 - A programming language for manipulating and analyzing strings in text files
